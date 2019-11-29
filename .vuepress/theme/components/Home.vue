@@ -10,6 +10,10 @@
         v-if="data.tagline !== null"
         :showCursor="false"
         :loop="true"
+        :typeSpeed="50"
+        :startDelay="1000"
+        :backSpeed="20"
+        :fadeOutDelay="5000"
       >
         <p class="typing description"></p>
       </vue-typed-js>
