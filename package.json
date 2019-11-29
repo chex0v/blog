@@ -1,6 +1,10 @@
 {
-    "scripts": {
-      "blog:dev": "vuepress dev",
-      "blog:build": "vuepress build"
-    }
+  "scripts": {
+    "blog:dev": "vuepress dev",
+    "blog:build": "vuepress build"
+  },
+  "devDependencies": {
+    "vue-typed-js": "^0.1.2",
+    "vue-typer": "^1.2.0"
   }
+}

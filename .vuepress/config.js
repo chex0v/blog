@@ -1,9 +1,11 @@
 module.exports = {
+    plugins: ['vue-typed-js'],
+    main: 'theme',
     locales: {
       '/': {
         lang: 'ru-RU',
-        title: 'Веб разработчик chexov',
-        description: 'Веб разработчик chexov'
+        title: 'Дмитрий Дмитриенко',
+        description: 'Full stack web developer Дмитрий Дмитриенко'
       }
     }
   }
