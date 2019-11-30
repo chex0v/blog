@@ -28,6 +28,7 @@
     </Sidebar>
 
     <Home v-if="$page.frontmatter.home"/>
+    <About v-if="$page.frontmatter.about"/>
 
     <Page
       v-else
@@ -44,6 +45,7 @@
 </template>
 <script>
 import Home from '@theme/components/Home.vue'
+import About from '@theme/components/About.vue'
 import Navbar from '@parent-theme/components/Navbar.vue'
 import Page from '@parent-theme/components/Page.vue'
 import Sidebar from '@parent-theme/components/Sidebar.vue'
@@ -51,7 +53,7 @@ import { resolveSidebarItems } from '@parent-theme/util'
 
 
 export default {
-  components: { Home, Page, Sidebar, Navbar },
+  components: { Home, About, Page, Sidebar, Navbar },
   data () {
     return {
       isSidebarOpen: false

@@ -1,8 +1,11 @@
 <template>
   <main class="home" aria-labelledby="main-title">
     <header class="hero">
-      <img v-if="data.heroImage" :src="$withBase(data.heroImage)" :alt="data.heroAlt || 'hero'" />
-
+      <parallax-container class="image-container" :animationDuration="500">
+        <parallax-element tag="div" type="rotation" :parallaxStrength="20">
+          <img v-if="data.heroImage" :src="$withBase(data.heroImage)" :alt="data.heroAlt || 'hero'" />
+        </parallax-element>
+      </parallax-container>
       <h1 v-if="data.heroText !== null" id="main-title">{{ data.heroText || $title || 'Hello' }}</h1>
 
       <vue-typed-js
@@ -17,10 +20,13 @@
       >
         <p class="typing description"></p>
       </vue-typed-js>
-
-      <p class="action" v-if="data.actionText && data.actionLink">
-        <NavLink class="action-button" :item="actionLink" />
-      </p>
+      <parallax-container :animationDuration="1000">
+        <parallax-element tag="p" type="depth" :parallaxStrength="20">
+          <p class="action" v-if="data.actionText && data.actionLink">
+            <NavLink class="action-button" :item="actionLink" />
+          </p>
+        </parallax-element>
+      </parallax-container>
     </header>
 
     <div class="features" v-if="data.features && data.features.length">
@@ -56,7 +62,7 @@ export default {
       if (this.$page.frontmatter.tagline) {
         d.push(this.$page.frontmatter.tagline);
       }
-      return d.concat(["Bitrix24", "Vue", "Sass", "Scss", "Python", 'Django']);
+      return d.concat(["Bitrix24", "Vue", "Sass", "Scss", "Python", "Django"]);
     }
   },
   data: () => ({
@@ -66,6 +72,15 @@ export default {
 </script>
 
 <style lang="stylus">
+body {
+  background-image: url('/bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
 .home {
   padding: $navbarHeight 2rem 0;
   max-width: 960px;
@@ -140,7 +155,7 @@ export default {
     }
 
     p {
-      color: lighten($textColor, 25%);
+      color: lighten($textColor, 10%);
     }
   }
 

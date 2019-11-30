@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /dmitrienko.jpg
+heroImage: /dmitrienko.png
 heroText: Дмитрий Дмитриенко
 tagline: Full stack web developer
 actionText: Обо мне →
