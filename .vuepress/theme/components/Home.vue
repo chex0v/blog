@@ -72,7 +72,7 @@ export default {
 </script>
 
 <style lang="stylus">
-body {
+div.home-container {
   background-image: url('/bg.jpg');
   background-position: center center;
   background-repeat: no-repeat;

@@ -7,10 +7,10 @@ actionText: Обо мне →
 actionLink: /about/
 features:
 - title: Битрикс
-  details: Четыре года разработки на Битрикс, два из которых Битрикс24.
+  details: Четыре+ года разработки на Битрикс, два из которых Битрикс24.
 - title: Vue/JS
-  details: Год веб разработки используя vue. Вёрстка, webpack, sass, scss, node.
-- title: Pytnon
-  details: Небольшой опыт использования python.
+  details: Опыт разработки используя vue. Вёрстка, webpack, sass, scss, node.
+- title: Python
+  details: Разработка системных скриптов на python.
 footer: © 2019 Дмитрий Дмитриенко
 ---
