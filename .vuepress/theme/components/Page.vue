@@ -9,7 +9,7 @@
     <PageNav v-bind="{ sidebarItems }" />
 
     <slot name="bottom" />
-    <div class="footer" v-if="data.footer">{{ data.footer }}</div>
+    <div class="footer" v-if="data.footer && !$page.frontmatter.home">{{ data.footer }}</div>
   </main>
 </template>
 
