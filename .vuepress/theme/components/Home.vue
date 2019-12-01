@@ -87,6 +87,10 @@ div.home-container {
   margin: 0px auto;
   display: block;
 
+  .custom-block.tip {
+    border-color: $accentColor;
+  }
+
   .hero {
     text-align: center;
 

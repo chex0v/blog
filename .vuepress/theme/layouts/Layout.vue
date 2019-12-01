@@ -118,6 +118,12 @@ export default {
         }
       }
     }
+  },
+  beforeMount() {
+    let nonscript = document.createElement("noscript");
+    nonscript.innerHTML = `<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-556Q44Z"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>`;
+    document.body.appendChild(nonscript);
   }
 };
 </script>
