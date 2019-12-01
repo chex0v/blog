@@ -4,6 +4,7 @@
     "blog:build": "vuepress build"
   },
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.2.0",
     "vue-flashcard": "^1.1.6",
     "vue-flat-surface-shader": "^1.0.5",
     "vue-info-card": "^0.1.3",

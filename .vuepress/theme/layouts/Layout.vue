@@ -29,13 +29,14 @@
         <slot name="page-bottom" />
       </template>
     </Page>
+  
   </div>
 </template>
 <script>
 import Home from "@theme/components/Home.vue";
 import About from "@theme/components/About.vue";
 import Navbar from "@parent-theme/components/Navbar.vue";
-import Page from "@parent-theme/components/Page.vue";
+import Page from "@theme/components/Page.vue";
 import Sidebar from "@parent-theme/components/Sidebar.vue";
 import { resolveSidebarItems } from "@parent-theme/util";
 
@@ -118,9 +119,8 @@ export default {
         }
       }
     }
-  },
-  beforeMount() {
-    let nonscript = document.createElement("noscript");
+  },beforeMount() {
+    let nonscript = document.createElement('noscript');
     nonscript.innerHTML = `<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-556Q44Z"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>`;
     document.body.appendChild(nonscript);
