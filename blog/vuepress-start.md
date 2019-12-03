@@ -64,8 +64,7 @@ module.exports = {
 .vuepress/theme/layouts/Layout.vue
 ```
 
-Код в компоненте можно написать свой или взять отсюда например: [https://github.com/vuejs/vuepress/blob/master/packages/%40vuepress/theme-default/layouts/Layout.vue](https://github.com/vuejs/vuepress/blob/master/packages/%40vuepress/theme-default/layouts/Layout.vue)
-
+Код в компоненте можно написать свой или взять [отсюда](https://github.com/vuejs/vuepress/blob/master/packages/%40vuepress/theme-default/layouts/Layout.vue)например.
 
 ### Подключение других vue компонентов
 
