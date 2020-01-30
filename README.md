@@ -12,5 +12,5 @@ features:
   details: Опыт разработки используя vue. Вёрстка, webpack, sass, scss, node.
 - title: Python
   details: Разработка системных скриптов на python.
-footer: © 2019 Дмитрий Дмитриенко
+footer: © 2020 Дмитрий Дмитриенко
 ---
