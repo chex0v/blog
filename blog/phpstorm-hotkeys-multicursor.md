@@ -1,7 +1,7 @@
 ---
 title: Горячие клавиши phpstorm для мультикурсора
 description: Phpstorm hotkeys for multicursor. Горячие клавиши phpstorm для мультикурсора
-footer: © 2019 Дмитрий Дмитриенко
+footer: © 2020 Дмитрий Дмитриенко
 ---
 
 # Горячие клавиши phpstorm для мультикурсора
