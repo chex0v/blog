@@ -5,6 +5,7 @@ module.exports = {
     nav: [
       { text: 'Главная', link: '/' },
       { text: 'Блог', link: '/blog/' },
+      { text: 'Проекты', link: '/projects/' },
       { text: 'Обо мне', link: '/about/' },
     ]
   },
