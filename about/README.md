@@ -13,6 +13,17 @@ footer: © 2020 Дмитрий Дмитриенко
 Более четырех лет работы с Битриксом.
 
 Поддерживаю и разрабатываю приложения для компаний по разработке высокотехнологичных решений в сфере телекоммуникаций и информационных систем, крупных логистических компаний.
+
+Пройден курс с золотой медалью "JavaScript/​DOM/​Интерфейсы для программистов" на [https://learn.javascript.ru/](https://learn.javascript.ru/courses/js)
+
+[Сертификат](https://learn.javascript.ru/courses/js-20201030/chexov34/ru/certificate.jpg)
+
+![Alt Text](https://learn.javascript.ru/courses/js-20201030/chexov34/ru/certificate.jpg)
+
+[Профиль с оценкой преподавателя](https://learn.javascript.ru/profile/chexov34)
+
+Преподаватель [Владимир Шевчук](https://learn.javascript.ru/profile/v-shevchuk)
+
 :::
 
 Skype: [chexov34](skype:chexov34?call)
